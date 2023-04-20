@@ -69,7 +69,7 @@ automations:
           reviewers: {{ repo | codeExperts(gt=10) }}
   print_description:
     if:
-      - true
+      - false
     run:
       - action: add-comment@v1
         args:
