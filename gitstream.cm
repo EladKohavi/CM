@@ -2,8 +2,6 @@
 manifest:
   version: 1.1
 config:
-   ignore_files:
-    - '!src/app/core/services/http.service.ts'
    admin:
      users: ['ShakedZrihen']
    user_mapping:
