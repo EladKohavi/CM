@@ -12,7 +12,7 @@ config:
     users: ["EladKohavi", "ShakedZrihen"]
 
 automations:
-  my_changes:
+  my_changes_1:
     if:
       - true
     run: 
