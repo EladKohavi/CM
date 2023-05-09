@@ -21,4 +21,4 @@ automations:
           label: 'eladush in cm'
       - action: add-comment@v1
         args:
-          comment: 'eladush in cm'
+          comment: 'eladush in cm
