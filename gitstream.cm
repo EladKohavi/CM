@@ -16,7 +16,7 @@ automations:
     if:
       - true
     run: 
-      - action: add-label@v
+      - action: add-label@v1
         args:
           label: 'eladush in cm'
       - action: add-comment@v1
