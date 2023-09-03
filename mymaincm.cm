@@ -1,0 +1,17 @@
+# -*- mode: yaml -*-
+
+manifest:
+  version: 1.0
+
+config:
+  ignore_repositories:
+    - mexico_winter
+
+automations:
+  my_changes_2:
+    if:
+      - true
+    run: 
+      - action: add-comment@v1
+        args:
+          comment: 'ignore mexico repositories'
