@@ -3,10 +3,6 @@
 manifest:
   version: 1.0
 
-config:
-  ignore_repositories:
-    - Mexico_winter
-
 automations:
   my_changes_2:
     if:
