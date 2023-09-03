@@ -5,7 +5,7 @@ manifest:
 
 config:
   ignore_repositories:
-    - mexico_winter
+    - Mexico_winter
 
 automations:
   my_changes_2:
