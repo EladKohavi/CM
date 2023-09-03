@@ -8,6 +8,8 @@ config:
   ignore_files:
     - 'package-lock.json'
     - 'blabla.txt'
+  ignore_repositories:
+    - Mexico_winter
   admin:
     users: ["EladKohavi", "ShakedZrihen"]
 
