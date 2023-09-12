@@ -14,7 +14,7 @@ config:
 automations:
   my_changes_1:
     if:
-      - true
+      - {{ source.diff.files | some }}
     run: 
       - action: add-label@v1
         args:
