@@ -9,7 +9,8 @@ automations:
     if:
       - true
     run:
-      - action: add-label@v1
+      - action: http-request@v1
         args:
-          label: "oops"
-          color: {{ colors.yellow }}
+          url: {{ env.SLACK_TEAM_FLARE_WEBHOOK }}
+          method: "POST"
+          body: '{"text": ":tada: kudos *{{ pr.author }}* for adding *{{ number_of_tests }}* new tests to *{{ repo.name }}*: {{ pr.url }} :tada:"}'
